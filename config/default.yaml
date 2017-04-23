@@ -1,0 +1,10 @@
+# Default server configuration.
+host: 127.0.0.1
+mongo_db: mongodb://localhost:27017/compiler_service
+port: 3000
+jwt_secret: "TG73L8X3J18RX4VNT6FK4M2JYT63T01Y"
+base_url: http://localhost:3000
+google:
+  id: 879916772461-i7htk1jo48ubv18dbe9pvce4m6lbka9n.apps.googleusercontent.com
+  secret: ZH3uaWy7Jtb7jtVRLcRRBdD0
+  redirect_uri: http://localhost:3000/auth/google/callback
